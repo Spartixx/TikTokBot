@@ -1,0 +1,43 @@
+{
+  "name": "opti_bot_patern",
+  "version": "1.0.0",
+  "description": "Bot by Spartix ( AlphaGen ).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spartixx/Opti_Bot_Patern.git"
+  },
+  "author": "Spartix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spartixx/Opti_Bot_Patern/issues"
+  },
+  "homepage": "https://github.com/Spartixx/Opti_Bot_Patern#readme",
+  "dependencies": {
+    "3": "^2.1.0",
+    "@mapbox/node-pre-gyp": "^1.0.8",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "common-tags": "^1.8.0",
+    "discord-akairo": "github:SkyBlockDev/discord-akairo",
+    "discord-music-system": "^3.3.15",
+    "discord-together": "^1.3.25",
+    "discord.js": "^13.0.0",
+    "install": "^0.13.0",
+    "lowdb": "^1.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.6",
+    "mysql": "^2.18.1",
+    "nekobot-api": "^2.1.0",
+    "node-fetch": "^3.1.0",
+    "os": "^0.1.2",
+    "pornsearch": "^0.3.3",
+    "puppeteer": "^13.5.0",
+    "sqlite": "^4.0.25",
+    "table": "^6.7.5",
+    "twitch-cli": "^0.0.2"
+  }
+}
