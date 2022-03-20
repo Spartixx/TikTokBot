@@ -1,10 +1,5 @@
 {
-  "ModLog_channel": [
-    {
-      "server_id": "915642499077402665",
-      "channel_id": "916060899591213146"
-    }
-  ],
+  "ModLog_channel": [],
   "log_channel": [],
   "leave_channel": [],
   "join_channel": []

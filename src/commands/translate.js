@@ -4,13 +4,6 @@ const moment = require('moment');
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync');
 const table = require('table');
-//dbconfig
-const dbdbconfig = new FileSync("dbconfig.json")
-const dbconfig = low(dbdbconfig)
-dbconfig.defaults({ ModLog_channel: [], log_channel: [], leave_channel: [], join_channel: []})
-  .write()
-
-
 
 class TranslateCommand extends Command {
     constructor() {

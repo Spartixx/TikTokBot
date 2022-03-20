@@ -21,6 +21,7 @@
     "@mapbox/node-pre-gyp": "^1.0.8",
     "axios": "^0.24.0",
     "cheerio": "^1.0.0-rc.10",
+    "child_process": "^1.0.2",
     "common-tags": "^1.8.0",
     "discord-akairo": "github:SkyBlockDev/discord-akairo",
     "discord-music-system": "^3.3.15",

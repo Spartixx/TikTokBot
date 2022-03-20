@@ -5,10 +5,6 @@ const { GuildsProvider } = require('../structures/Providers')
 const mongoose = require('mongoose');
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
-const stock = new FileSync('stock.json');
-const db = low(stock);
-
-db.defaults({Comptes: []}).write()
 
 module.exports = class GotoClient extends AkairoClient {
     constructor(config = {}){
