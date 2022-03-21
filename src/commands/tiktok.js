@@ -30,7 +30,7 @@ class TiktokCommand extends Command {
            userPermissions: 'SEND_MESSAGES',
            clientPermissions: 'SEND_MESSAGES',
            ratelimit: 2,
-           cooldown: 3000,
+           cooldown: 100000,
            typing: true,
            ownerOnly: false,
            channel: 'guild',
@@ -38,28 +38,17 @@ class TiktokCommand extends Command {
     }
 
     async exec(message, member) {
-        const { Buffer } = require('buffer');
-        const buf = Buffer.alloc(64);
         const { execFile } = require('child_process');
-        const child = execFile('python', ['tiktok/main.py'], (error, stdout, stderr) => {
-          if (error) {
-            throw error;
-          }
-          console.log(stdout);
-        });
-        const child2 = execFile('python', ['tiktok/main2.py'], (error, stdout, stderr) => {
-          if (error) {
-            throw error;
-          }
-          console.log(stdout);
-        });
-        const child3 = execFile('python', ['tiktok/main3.py'], (error, stdout, stderr) => {
-          if (error) {
-            throw error;
-          }
-          console.log(stdout);
-        });
-    }
+        function user1 () {
+          const child = execFile('python', ['main.py'], (error, stdout, stderr) => {
+            if (error) {
+              throw error;
+            }
+            console.log(stdout);
+            });
+      }
+      user1()
+  }
 }
     
 

@@ -22,7 +22,7 @@ module.exports = class GotoClient extends AkairoClient {
                         {
                             name: 'Spartix#0001',
                             type: 'PLAYING',
-                            url: 'https://github.com/Spartixx/Opti_Bot_Patern'
+                            url: 'https://github.com/Spartixx'
                         }
                     ]
                 },
